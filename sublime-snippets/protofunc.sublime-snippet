@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:object}.prototype.${2:func} = function(${3:params}) {
+  ${4:body}
+}
+]]></content>
+  <description>proto type function</description>
+  <tabTrigger>protofunc</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

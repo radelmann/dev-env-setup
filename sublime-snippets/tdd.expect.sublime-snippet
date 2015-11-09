@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+it("${1:expects}", function() {
+  expect(${2:test}).to.equal(${3:result});
+});
+]]></content>
+  <description>tdd</description>
+  <tabTrigger>expect</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
+
