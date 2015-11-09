@@ -1,0 +1,25 @@
+#misc aliases
+openChrome() { 
+open -a "/Applications/Google Chrome.app" $1 
+}
+
+alias chrome=openChrome
+alias copypath='pwd|pbcopy'
+alias home='cd ~/'
+alias nbp='nano ~/.bash_profile'
+
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+#git aliases
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+
+alias got='git '
+alias get='git '

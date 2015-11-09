@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+var ${1:var} = function (${2:params}) {
+  ${3:body}
+};
+]]></content>
+  <description>js function expression</description>
+  <tabTrigger>varf</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
