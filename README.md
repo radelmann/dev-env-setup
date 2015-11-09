@@ -5,8 +5,8 @@ Installs the following:
 - shell cmd for opening chrome from the terminal: `chrome <file_name>`
 - a few other random aliases that I like to use, see *bash_profile_ra.txt* for full list
 - several git aliases, [as recommended here](http://gitimmersion.com/lab_11.html)
-- creates nodejs build system for sublime
-- installs sublime snippets from the *sublime-snippets* folder, feel free to fork and add your own
+- node build system for sublime
+- sublime snippets from the *sublime-snippets* folder, feel free to fork and add your own
 
 To install:
 ```
